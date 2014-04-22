@@ -1,4 +1,3 @@
-
 window.onload = function()
 { 
 
@@ -32,7 +31,7 @@ window.onload = function()
 			var dibujar4= SVG('divsvg').size("240",'340');
 		
 			var Primera_Letra = dibujar.polyline(Letra_L).fill("none").stroke({width : 4, color: '#FF9900'}).attr({ fill: color });
-			Primera_Letra.animate(1000).plot(Letra_U).loop(2);
+			Primera_Letra.animate(1000).plot(Letra_H).loop(2);
 
 			var Segunda_Letra = dibujar2.polyline(Letra_U).fill("none").stroke({width : 4, color: '#FF9900'}).attr({ fill: color });
 			Segunda_Letra.animate(1000).plot(Letra_C).loop(2);
